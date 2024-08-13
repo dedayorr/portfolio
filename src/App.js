@@ -6,7 +6,7 @@ import Page from './components/Page/Page';
 
 function App() {
   return (
-    <div className="App ">
+    <div className="App bg-bgColor1 ">
      <Navbar/>
      <Page/>
      <Footer/>
