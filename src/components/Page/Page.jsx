@@ -126,7 +126,9 @@ function Page() {
         <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
           Skills
         </p>
-        <p className="lg:text-[25px] lg:my-[3%]">The skills, tools and technologies I am good at:</p>
+        <p className="lg:text-[25px] lg:my-[3%]">
+          The skills, tools and technologies I am good at:
+        </p>
         <div className="grid grid-cols-3 gap-[10%] lg:grid-cols-5 lg:gap-[17%]">
           <div className="items-center flex flex-col justify-center gap-3">
             <img
@@ -188,7 +190,9 @@ function Page() {
         <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
           Experience
         </p>
-        <p className="text-center lg:text-[25px] lg:my-[3%]">Here is a quick summary of my experience</p>
+        <p className="text-center lg:text-[25px] lg:my-[3%]">
+          Here is a quick summary of my experience
+        </p>
         <div className="lg:w-[60%] lg:mx-auto ">
           <div className="h-[] bg-[#1F2937]  p-5 rounded-[15px] flex flex-col gap-[10px] lg:p-[5%]">
             <p className="font-bold text-[25px] text-[#14A800]">AremxyPlug</p>
@@ -266,7 +270,7 @@ function Page() {
         <p className="text-center lg:text-[20px] lg:my-[3%]">
           Some of the noteworthy projects I have built:
         </p>
-        <div className="lg:mx-[5%]">
+        <div className="lg:mx-[5%] ">
           <div className="bg-[#1F2937] lg:flex ">
             <div className="bg-[#374151] p-6 lg:p-9 lg:w-1/2">
               <a href="https://gailymaids.com" target="_blank" rel="noreferrer">
@@ -279,7 +283,9 @@ function Page() {
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">Gaily Maids</p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                Gaily Maids
+              </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 An all-encompassing cleaning service platform designed to
                 provide exceptional cleaning solutions for residential,
@@ -329,7 +335,9 @@ function Page() {
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">AremxyPlug</p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                AremxyPlug
+              </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 AremxyPlug is a business enterprise and telecommunication
                 service provider that offers individuals and businesses full
@@ -377,7 +385,9 @@ function Page() {
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">Blogify</p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                Blogify
+              </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 An app that contains blogs and section to add blogs. Has a Store
                 to buy books with integration of flutterwave to make payment.
@@ -420,7 +430,9 @@ function Page() {
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">Rentree</p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                Rentree
+              </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 A landing page conveying information about Rentree. Rentree is
                 your go-to platform for booking hotels and renting apartments in
@@ -464,7 +476,9 @@ function Page() {
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">D-gadget</p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                D-gadget
+              </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 An e-commerce site to buy gadgets, customers are able to
                 navigate through different gadgets and then add items to cart as
@@ -515,7 +529,9 @@ function Page() {
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">Purple</p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                Purple
+              </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 A single page website template.
               </p>
@@ -544,7 +560,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] ">
+          <div className="bg-[#1F2937] flex">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://smart-invest-hub.netlify.app/"
@@ -560,7 +576,9 @@ function Page() {
               </a>
             </div>
             <div className=" p-5 flex flex-col gap-[18px] lg:w-1/2">
-              <p className="font-extrabold text-[18px] lg:text-[24px]">Smart Invest Hub</p>{" "}
+              <p className="font-extrabold text-[18px] lg:text-[24px]">
+                Smart Invest Hub
+              </p>{" "}
               <p className="font-light text-justify lg:text-[20px]">
                 Unlock smarter investing with our AI-powered robo-advisor with a
                 section where users can select their risk tolerance.
@@ -592,8 +610,11 @@ function Page() {
       </div>
 
       {/* =============Section Six============== */}
-      <div className="bg-[#1F2937] px-[5%] mt-[20%] py-[15%] text-[#fff] lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
-        <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center">
+      <div
+        id="contact"
+        className="bg-[#1F2937] px-[5%] mt-[20%] py-[15%] text-[#fff] lg:text-[25px] lg:mt-[10%] lg:py-[10%]"
+      >
+        <p className="mx-auto text-textColor bg-[#374151] w-[105px] h-[28px] rounded-[12px] flex justify-center items-center lg:text-[25px] lg:w-[170px] lg:h-[38px] lg:rounded-[16px]">
           Get in touch
         </p>
         <div className="mt-[5%] flex flex-col gap-[15px] font-extralight">
@@ -614,13 +635,14 @@ function Page() {
         </div>
       </div>
 
-      <div className="flex text-textColor mt-[10%] text-[25px] gap-[5%] justify-center">
-        <a className="" href="https://github.com/dedayorr">
+      <div className="flex text-textColor mt-[10%] text-[25px] gap-[5%] justify-center lg:mt-[5%] lg:text-[35px]">
+        <a className="" href="https://github.com/dedayorr" target="_blank">
           <AiFillGithub />
         </a>
         <a
           className=""
           href="https://www.linkedin.com/in/elijah-adeyeye-software-developer/"
+          target="_blank"
         >
           <FaLinkedin />
         </a>
