@@ -560,7 +560,7 @@ function Page() {
           </div>
 
           <br />
-          <div className="bg-[#1F2937] flex">
+          <div className="bg-[#1F2937] lg:flex">
             <div className="bg-[#374151] p-5 lg:p-9 lg:w-1/2">
               <a
                 href="https://smart-invest-hub.netlify.app/"
