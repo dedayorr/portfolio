@@ -636,13 +636,19 @@ function Page() {
       </div>
 
       <div className="flex text-textColor mt-[10%] text-[25px] gap-[5%] justify-center lg:mt-[5%] lg:text-[35px]">
-        <a className="" href="https://github.com/dedayorr" target="_blank">
+        <a
+          className=""
+          href="https://github.com/dedayorr"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillGithub />
         </a>
         <a
           className=""
           href="https://www.linkedin.com/in/elijah-adeyeye-software-developer/"
           target="_blank"
+          rel="noreferrer"
         >
           <FaLinkedin />
         </a>
