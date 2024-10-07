@@ -17,13 +17,18 @@ function Navbar() {
   return (
     <>
       {navOpen && (
-        <div className="sidebar bg-white h-screen sticky top-0 w-full z-50 animate-in">
-          <div className="flex p-[8px] justify-between px-[16px] items-center h-[70px]">
+        <div className="sidebar bg-white h-screen sticky top-0 w-full z-50 animate-in pt-[10%]">
+          <div className="flex p-[8px] justify-between px-[16px] items-center h-[70px] pb-[]">
             <a href="/">
               {" "}
-              <div className="text-bgColor1 cursive font-extrabold text-[27px] underline">
+              {/* <div className="text-bgColor1 cursive font-extrabold text-[27px] underline">
                 ADEYEYE
-              </div>
+              </div> */}
+                <img
+                  className="rounded-[10px] h-[80px] w-[70px]"
+                  src="./EA-logo1.png"
+                  alt="project-one"
+                />
             </a>
 
             <IoCloseSharp
@@ -32,7 +37,7 @@ function Navbar() {
             />
           </div>
 
-          <div className="mt-[5%]">
+          <div className="mt-[15%]">
             {" "}
             <ul className="text-bgColor1 w-[90%] mx-auto flex flex-col ">
               <li
@@ -69,10 +74,15 @@ function Navbar() {
           </div>
         </div>
       )}
-      <div className="sticky top-0 z-40 bg-bgColor1 h-[70px] flex justify-between px-[16px] items-center md:mx-[5%] lg:pt-[5%]">
-        <div className="text-white cursive font-extrabold text-[27px] underline lg:text-[45px]">
+      <div className="sticky top-0 z-40 bg-bgColor1 h-[150px] flex justify-between px-[16px] items-center md:mx-[5%] lg:pt-[3%] lg:h-[200px]">
+        {/* <div className="text-white cursive font-extrabold text-[27px] underline lg:text-[45px]">
           ADEYEYE
-        </div>
+        </div> */}
+         <img
+                  className="rounded-[10px] h-[100px] w-[90px] lg:w-[130px] lg:h-[140px]"
+                  src="./logo512.png"
+                  alt="project-one"
+                />
         <GiHamburgerMenu
           onClick={openSideBar}
           className="text-textColor h-[30px] w-[30px] md:hidden"
