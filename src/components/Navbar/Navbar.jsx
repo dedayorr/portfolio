@@ -80,7 +80,7 @@ function Navbar() {
         </div> */}
          <img
                   className="rounded-[10px] h-[100px] w-[90px] lg:w-[130px] lg:h-[140px]"
-                  src="./logo512.png"
+                  src="./logo192.png"
                   alt="project-one"
                 />
         <GiHamburgerMenu
